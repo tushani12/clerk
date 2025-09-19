@@ -1,0 +1,1 @@
+typed word= same as in asc1.js (typed words of word by word analysis)

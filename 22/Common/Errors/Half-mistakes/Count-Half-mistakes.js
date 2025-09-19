@@ -1,0 +1,1 @@
+half mistakes= sum of no. of (merged count +extra spaces) words

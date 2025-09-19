@@ -1,0 +1,1 @@
+const countGrossChars = (text) => text.length;

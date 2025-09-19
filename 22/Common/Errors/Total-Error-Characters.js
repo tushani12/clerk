@@ -1,0 +1,1 @@
+error characters= 5*no. of full mistakes + 2.5*no. of half mistakes

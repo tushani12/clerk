@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test - Console Testing</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .test-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .typing-field {
+            width: 100%;
+            height: 150px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            font-size: 16px;
+            font-family: monospace;
+            resize: vertical;
+        }
+        .typing-field:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        .finish-btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .finish-btn:hover {
+            background: #0056b3;
+        }
+        .instructions {
+            background: #e7f3ff;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            border-left: 4px solid #007bff;
+        }
+        .console-output {
+            background: #1e1e1e;
+            color: #fff;
+            padding: 15px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 14px;
+            margin-top: 20px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Typing Test Console Testing</h1>
+    
+    <div class="instructions">
+        <h3>How to test:</h3>
+        <ol>
+            <li>Open your browser's Developer Tools (F12 or right-click → Inspect)</li>
+            <li>Go to the Console tab</li>
+            <li>Copy and paste the JavaScript code from <code>akash-sir-code3.js</code></li>
+            <li>Type some text in the field below</li>
+            <li>Click the "Finish Test" button</li>
+            <li>Check the console for results!</li>
+        </ol>
+    </div>
+
+    <div class="test-container">
+        <h3>Test 1</h3>
+        <textarea id="175779" class="typing-field" placeholder="Start typing here..."></textarea>
+        <br>
+        <button id="175794" class="finish-btn">Finish Test</button>
+    </div>
+
+    <div class="test-container">
+        <h3>Test 2</h3>
+        <textarea id="175835" class="typing-field" placeholder="Start typing here..."></textarea>
+        <br>
+        <button id="175794" class="finish-btn">Finish Test</button>
+    </div>
+
+    <div class="console-output">
+        <strong>Console Output Preview:</strong><br>
+        Open Developer Tools → Console to see the actual output when you run the test.
+    </div>
+
+    <script>
+        // This is just a preview - you'll need to paste the actual function from akash-sir-code3.js
+        console.log("Ready to test! Copy your function from akash-sir-code3.js and paste it in the console.");
+    </script>
+</body>
+</html>

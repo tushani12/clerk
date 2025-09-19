@@ -1,0 +1,1 @@
+accuracy%= (net characters / gross characters) * 100

@@ -1,0 +1,1 @@
+net speed= net characters / (5* duration in minutes)
